@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sanika Kumbhar's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles1.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#home" class="logo">Sanika Kumbhar</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 class="hero-title">Hi, I'm Sanika Kumbhar</h1>
+        <p class="hero-subtitle">A Creative Developer & Designer</p>
+        <a href="#projects" class="btn hero-btn">Explore My Work</a>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="projects-section-title">My Projects 🚀</h2>
+
+        <!-- Project 1 -->
+        <div class="project">
+          <img
+            src="images/project1.png"
+            alt="OmniFood Website"
+            class="project-image"
+          />
+          <div class="project-info">
+            <h3>OmniFood Website</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+              quibusdam in recusandae tempore voluptate ullam, reiciendis,
+              voluptatum eius nemo veritatis voluptas fugit similique?
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project reverse">
+          <img
+            src="images/project2.png"
+            alt="Lung Diseases Info"
+            class="project-image"
+          />
+          <div class="project-info">
+            <h3>Lung Diseases Info</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              adipisci ipsa, ea harum architecto est pariatur quibusdam cumque.
+              Eligendi labore veritatis facilis odio temporibus dolore corrupti
+              natus.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project">
+          <img
+            src="images/project1.png"
+            alt="Employee Management System"
+            class="project-image"
+          />
+          <div class="project-info">
+            <h3>Employee Management System</h3>
+            <p>
+              A Java-based system for employee data management. Lorem ipsum,
+              dolor sit amet consectetur adipisicing elit. Ipsum adipisci ipsa,
+              ea harum architecto est pariatur quibusdam cumque. Eligendi labore
+              veritatis facilis odio temporibus dolore corrupti natus.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project reverse">
+          <img
+            src="images/project2.png"
+            alt="Lung Disease Diagnosis"
+            class="project-image"
+          />
+          <div class="project-info">
+            <h3>Lung Disease Diagnosis</h3>
+            <p>
+              AI-based lung disease detection using CNN & fuzzy logic. Lorem
+              ipsum, dolor sit amet consectetur adipisicing elit. Ipsum adipisci
+              ipsa, ea harum architecto est pariatur quibusdam cumque. Eligendi
+              labore veritatis facilis odio temporibus dolore corrupti natus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="about-section-title">Who Am I? 🤔</h2>
+        <div class="about-content">
+          <!-- Profile Image -->
+          <div class="profile">
+            <img
+              src="images/project1.png"
+              alt="Sanika Kumbhar"
+              class="profile-pic"
+            />
+            <p class="fun-intro">
+              Hey there! I'm <span class="highlight">Sanika</span>, a coding
+              ninja who loves turning <strong>ideas into reality</strong>. From
+              <strong>Java wizardry 🧙‍♀️</strong> to <strong>AI magic 🧠</strong>,
+              I explore everything tech with a creative twist! 🎨✨
+            </p>
+          </div>
+
+          <!-- Fun Animated Skills Section -->
+          <div class="skills-cloud">
+            <span class="skill">Java ☕</span>
+            <span class="skill">Machine Learning 🤖</span>
+            <span class="skill">Web Dev 🌐</span>
+            <span class="skill">iOS Development 🍏</span>
+            <span class="skill">React ⚛️</span>
+            <span class="skill">SQL 🛢️</span>
+            <span class="skill">Deep Learning 🧠</span>
+            <span class="skill">DSA & OOP 🏗️</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Let's Connect! 📩</h2>
+        <p class="contact-text">
+          Have a question or want to work together? Drop me a message! 🚀
+        </p>
+
+        <form id="contact-form">
+          <div class="input-group">
+            <input type="text" name="name" id="name" required />
+            <label for="name">Your Name</label>
+          </div>
+
+          <div class="input-group">
+            <input type="email" name="email" id="email" required />
+            <label for="email">Your Email</label>
+          </div>
+
+          <div class="input-group">
+            <textarea name="message" id="message" required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+
+          <button type="submit" class="contact-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Sanika Kumbhar. All rights reserved.</p>
+
+        <!-- Social Media Links -->
+        <div class="social-links">
+          <a href="mailto:sanikakumbhar007@gmail.com" target="_blank">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sanika-kumbhar-b14092228"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Smiling3004" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Font Awesome for Icons -->
+    <script
+      src="https://kit.fontawesome.com/your-fontawesome-kit.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- GSAP Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script1.js"></script>
+  </body>
+</html>
